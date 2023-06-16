@@ -14,12 +14,12 @@ const Banner = () => {
   useEffect(() => {
     let ticket = setInterval(() => {
       tick();
-    }, [delta]);      
+    }, delta);      
 
     return () => {
       clearInterval(ticket);
     };
-  }, [text]);
+  },);
 
   const tick = () => {
     let i = loopNum % toRotate.length;
