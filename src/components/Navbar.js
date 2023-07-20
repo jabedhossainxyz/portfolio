@@ -5,6 +5,7 @@ import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import { Link } from "react-scroll";
+// import { Projects } from './Projects';
 
 export const Navbar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -49,6 +50,17 @@ export const Navbar = () => {
             >
               Home
             </Nav.Link>
+
+            {/* <Nav.Link
+              href="#projects"
+              className={
+                activeLink === "projects" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("projects")}
+            >
+              Projects
+            </Nav.Link> */}
+
             <Nav.Link
               href="#projects"
               className={
@@ -58,6 +70,7 @@ export const Navbar = () => {
             >
               Projects
             </Nav.Link>
+
             <Nav.Link
               href="#skills"
               className={
@@ -80,9 +93,6 @@ export const Navbar = () => {
                 <img src={navIcon3} alt="navIcon3" />
               </a>
             </div>
-            {/* <button className="vvd">
-              <span>Let's Connect</span>
-            </button> */}
             <Link
               activeClass="active"
               to="contact"
