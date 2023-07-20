@@ -4,7 +4,7 @@ import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
-import { HashLink } from "react-router-hash-link";
+import { Link } from "react-scroll";
 
 export const Navbar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -80,11 +80,21 @@ export const Navbar = () => {
                 <img src={navIcon3} alt="navIcon3" />
               </a>
             </div>
-            <HashLink to="#connect">
+            {/* <button className="vvd">
+              <span>Let's Connect</span>
+            </button> */}
+            <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
               <button className="vvd">
-                <span>Let’s Connect</span>
+                <span>Let's Connect</span>
               </button>
-            </HashLink>
+            </Link>
           </span>
         </BootstrapNavbar.Collapse>
       </Container>
