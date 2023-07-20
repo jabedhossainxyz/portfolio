@@ -54,12 +54,22 @@ export const Projects = () => {
                   }
                 >
                   <h2>Projects</h2>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                  <p style={{ textAlign: "justify" }}>
+                    I am a versatile developer with expertise in healthcare
+                    solutions, React ToDo App, and various PHP-based systems. My
+                    Online Health Care platform facilitates virtual medical
+                    assistance from licensed doctors, while the ToDo App
+                    enhances task management. The Online Birth Certificate,
+                    Covid-19 Testing, and Daily Expense Tracker systems
+                    streamline administrative tasks and essential services.
+                    Additionally, I developed a Chatbot for seamless
+                    communication and an Online Examination System for academic
+                    efficiency. In the finance sector, my Online Banking System
+                    offers secure transactions, and the Student Project
+                    Allocation system optimizes resource allocation. Lastly, the
+                    Online Ticket Reservation system simplifies travel booking.
+                    My projects prioritize user experience and practicality
+                    across domains.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -100,12 +110,17 @@ export const Projects = () => {
                         </p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
+                        <p style={{ textAlign: "justify" }}>
+                          To develop into a highly knowledgeable and skilled
+                          software engineer who specializes in creating,
+                          creating, and implementing cutting-edge software
+                          solutions. My goal is to consistently broaden my skill
+                          set, take on new challenges, and stay current with the
+                          most recent trends and innovations in the industry in
+                          order to advance professionally. My ultimate goal
+                          could be to create software that has a good impact on
+                          people's lives and to meaningfully contribute to the
+                          industry and society.
                         </p>
                       </Tab.Pane>
                     </Tab.Content>

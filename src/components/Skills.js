@@ -3,14 +3,13 @@ import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
+// import arrow1 from "../assets/img/arrow1.svg";
+// import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -35,10 +34,30 @@ export const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
+              <p style={{ textAlign: "justify" }}>
+                As an experienced PHP developer, my expertise lies in
+                server-side web development using PHP, a versatile scripting
+                language. With PHP, I handle dynamic content generation,
+                database interactions, and form processing on the server,
+                delivering robust web applications. Working with PHP, I build
+                back-end logic and APIs that power web application
+                functionality. I manage user authentication, data validation,
+                and server-side form processing, ensuring secure and reliable
+                web services. Proficient in MySQL, I design and manage
+                databases, perform complex data queries, and efficiently store
+                and retrieve information for web applications. As a full-stack
+                developer, I possess front-end skills in HTML, CSS, and
+                JavaScript, creating user-friendly interfaces for seamless
+                experiences across devices. Throughout my career, I have
+                collaborated on diverse projects, delivering high-quality
+                solutions tailored to client requirements. I optimize web
+                application performance, implement caching strategies, and
+                ensure efficient code execution for scalability and speed. In
+                conclusion, my expertise in PHP, MySQL, and front-end
+                technologies allows me to deliver end-to-end solutions for web
+                applications. I am committed to staying updated with industry
+                trends, continuously enhancing my skills to deliver innovative
+                web solutions.<br></br>
               </p>
               <Carousel
                 responsive={responsive}
@@ -47,10 +66,26 @@ export const Skills = () => {
               >
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <h5>PHP</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>MYSQL</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Image" />
+                  <h5>Web Development</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>Laravel</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>SQL</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
                   <h5>Web Design</h5>
                 </div>
               </Carousel>
