@@ -1,4 +1,4 @@
-/************ Custom Font ************/
+
 @font-face {
 	font-family: Centra;
 	src: url('./assets/font/CentraNo2-Bold.ttf');
@@ -15,7 +15,7 @@
 	font-weight: 400;
 }
 
-/************ Default Css ************/
+
 * {
   margin: 0;
   padding: 0;

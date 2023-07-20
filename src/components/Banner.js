@@ -53,7 +53,12 @@ const Banner = () => {
               Hi, I am Jabed Hossain<span className="wrap"><br/> {text}</span>
             </h1>
             <p>
-              As a PHP and Laravel web developer, I excel in creating dynamic web applications. With PHP's server-side scripting and the Laravel framework's power, I deliver scalable and feature-rich websites. I handle backend functionality, database interactions, and customization with ease. Using Laravel's MVC architecture, I create interactive interfaces, implement secure authentication systems, and process data efficiently. With expertise in Laravel's ecosystem, including Eloquent ORM and Blade templating, I optimize website performance and user experience. My clean and maintainable code ensures scalability and adherence to industry standards. I specialize in crafting efficient, secure, and customized web solutions for businesses and users.
+              As a PHP and Laravel web developer, I excel in creating dynamic web applications. With PHP's server-side scripting 
+              and the Laravel framework's power, I deliver scalable and feature-rich websites. I handle backend functionality, 
+              database interactions, and customization with ease. Using Laravel's MVC architecture, I create interactive interfaces, implement 
+              secure authentication systems, and process data efficiently. With expertise in Laravel's ecosystem, including Eloquent ORM and Blade 
+              templating, I optimize website performance and user experience. My clean and maintainable code ensures scalability and adherence to 
+              industry standards. I specialize in crafting efficient, secure, and customized web solutions for businesses and users.
             </p>
             <button onClick={() => console.log("Connect")}>
               Lets Connect <ArrowRightCircle size={25} />
