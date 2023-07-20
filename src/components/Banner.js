@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
+import { Link } from "react-scroll";
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -14,12 +15,12 @@ const Banner = () => {
   useEffect(() => {
     let ticket = setInterval(() => {
       tick();
-    }, delta);      
+    }, delta);
 
     return () => {
       clearInterval(ticket);
     };
-  },);
+  });
 
   const tick = () => {
     let i = loopNum % toRotate.length;
@@ -50,19 +51,40 @@ const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="taglink">Welcome to my portfolio</span>
             <h1>
-              Hi, I am Jabed Hossain<span className="wrap"><br/> {text}</span>
+              Hi, I am Jabed Hossain
+              <span className="wrap">
+                <br /> {text}
+              </span>
             </h1>
             <p>
-              As a PHP and Laravel web developer, I excel in creating dynamic web applications. With PHP's server-side scripting 
-              and the Laravel framework's power, I deliver scalable and feature-rich websites. I handle backend functionality, 
-              database interactions, and customization with ease. Using Laravel's MVC architecture, I create interactive interfaces, implement 
-              secure authentication systems, and process data efficiently. With expertise in Laravel's ecosystem, including Eloquent ORM and Blade 
-              templating, I optimize website performance and user experience. My clean and maintainable code ensures scalability and adherence to 
-              industry standards. I specialize in crafting efficient, secure, and customized web solutions for businesses and users.
+              As a PHP and Laravel web developer, I excel in creating dynamic
+              web applications. With PHP's server-side scripting and the Laravel
+              framework's power, I deliver scalable and feature-rich websites. I
+              handle backend functionality, database interactions, and
+              customization with ease. Using Laravel's MVC architecture, I
+              create interactive interfaces, implement secure authentication
+              systems, and process data efficiently. With expertise in Laravel's
+              ecosystem, including Eloquent ORM and Blade templating, I optimize
+              website performance and user experience. My clean and maintainable
+              code ensures scalability and adherence to industry standards. I
+              specialize in crafting efficient, secure, and customized web
+              solutions for businesses and users.
             </p>
-            <button onClick={() => console.log("Connect")}>
+            <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <button className="vvd">
+                Let's Connect <ArrowRightCircle size={25} />
+              </button>
+            </Link>
+            {/* <button onClick={() => console.log("Connect")}>
               Lets Connect <ArrowRightCircle size={25} />
-            </button>
+            </button> */}
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt="header img" />
