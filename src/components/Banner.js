@@ -70,7 +70,7 @@ const Banner = () => {
               specialize in crafting efficient, secure, and customized web
               solutions for businesses and users.
             </p>
-            <Link
+            {/* <Link
               activeClass="active"
               to="contact"
               spy={true}
@@ -81,10 +81,17 @@ const Banner = () => {
               <button className="vvd">
                 Let's Connect <ArrowRightCircle size={25} />
               </button>
-            </Link>
-            {/* <button onClick={() => console.log("Connect")}>
-              Lets Connect <ArrowRightCircle size={25} />
-            </button> */}
+            </Link> */}
+            <a
+              href="https://www.linkedin.com/in/jabedhossain"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+            >
+              <button className="vvd">
+                Let's Connect <ArrowRightCircle size={25} />
+              </button>
+            </a>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt="header img" />
