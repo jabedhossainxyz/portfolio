@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
