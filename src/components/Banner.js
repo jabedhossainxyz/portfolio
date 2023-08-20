@@ -2,15 +2,14 @@ import { useEffect, useState } from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
-// import { Link } from "react-scroll";
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Web Developer", "Web Designer"];
+  const toRotate = ["PHP", "&", "Laravel Developer"];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const period = 2000;
+  const period = 1000;
 
   useEffect(() => {
     let ticket = setInterval(() => {
@@ -52,7 +51,7 @@ const Banner = () => {
             <span className="taglink">Welcome to my portfolio</span>
             <h1>
               Hi, I am Jabed Hossain
-              <span className="wrap">
+              <span className="wrap" style={{ color: "goldenrod" }}>
                 <br /> {text}
               </span>
             </h1>
@@ -70,18 +69,7 @@ const Banner = () => {
               specialize in crafting efficient, secure, and customized web
               solutions for businesses and users.
             </p>
-            {/* <Link
-              activeClass="active"
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              <button className="vvd">
-                Let's Connect <ArrowRightCircle size={25} />
-              </button>
-            </Link> */}
+
             <a
               href="https://www.linkedin.com/in/jabedhossain"
               target="_blank"
