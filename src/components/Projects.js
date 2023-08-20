@@ -1,8 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -10,19 +8,11 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "One Health",
+      description: "Online Healthcare Management System using Laravel",
       imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      githubUrl:
+        "https://github.com/JabedHossainSwe/Online-Health-Care-Full-Project.git",
     },
   ];
 
@@ -88,8 +78,8 @@ export const Projects = () => {
                       <Tab.Pane eventKey="section">
                         <p>
                           Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
+                          elit. Cumque quam, quod neque velit, rem explicabo
+                          excepturi id illo molestiae bprovidentlanditiis,
                           eligendi dicta officiis asperiores delectus quasi
                           inventore debitis quo.
                         </p>
@@ -116,7 +106,11 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} alt="backgroundImage"></img>
+      <img
+        className="background-image-right"
+        src={colorSharp2}
+        alt="backgroundImage"
+      ></img>
     </section>
   );
 };
