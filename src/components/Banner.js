@@ -55,19 +55,23 @@ const Banner = () => {
                 <br /> {text}
               </span>
             </h1>
-            <p>
-              As a PHP and Laravel web developer, I excel in creating dynamic
-              web applications. With PHP's server-side scripting and the Laravel
-              framework's power, I deliver scalable and feature-rich websites. I
-              handle backend functionality, database interactions, and
-              customization with ease. Using Laravel's MVC architecture, I
-              create interactive interfaces, implement secure authentication
-              systems, and process data efficiently. With expertise in Laravel's
-              ecosystem, including Eloquent ORM and Blade templating, I optimize
-              website performance and user experience. My clean and maintainable
-              code ensures scalability and adherence to industry standards. I
-              specialize in crafting efficient, secure, and customized web
-              solutions for businesses and users.
+            <p style={{ textAlign: "justify" }}>
+              As a proficient PHP and Laravel web developer, I specialize in
+              crafting dynamic web applications. Leveraging PHP's server-side
+              scripting and the robust capabilities of the Laravel framework, I
+              deliver scalable and feature-rich websites. My expertise extends
+              to backend functionality, database interactions, and seamless
+              customization. In addition to my proficiency in PHP and Laravel,
+              I've embraced modern front-end technologies like React. This
+              enables me to create interactive interfaces, implement secure
+              authentication systems, and optimize data processing. With
+              in-depth knowledge of Laravel's ecosystem, including Eloquent ORM
+              and Blade templating, I prioritize enhancing website performance
+              and user experience. My coding approach emphasizes cleanliness and
+              maintainability, ensuring scalability and alignment with industry
+              standards. Notably, I excel in providing tailored web solutions
+              that seamlessly blend efficiency, security, and customization to
+              cater to the unique needs of businesses and users.
             </p>
 
             <a

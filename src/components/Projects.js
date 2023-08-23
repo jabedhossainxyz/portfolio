@@ -31,21 +31,23 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p style={{ textAlign: "justify" }}>
-                    I am a versatile developer with expertise in healthcare
-                    solutions, React ToDo App, and various PHP-based systems. My
-                    Online Health Care platform facilitates virtual medical
-                    assistance from licensed doctors, while the ToDo App
-                    enhances task management. The Online Birth Certificate,
-                    Covid-19 Testing, and Daily Expense Tracker systems
-                    streamline administrative tasks and essential services.
-                    Additionally, I developed a Chatbot for seamless
-                    communication and an Online Examination System for academic
-                    efficiency. In the finance sector, my Online Banking System
-                    offers secure transactions, and the Student Project
-                    Allocation system optimizes resource allocation. Lastly, the
-                    Online Ticket Reservation system simplifies travel booking.
-                    My projects prioritize user experience and practicality
-                    across domains.
+                    With a versatile skill set, I excel in healthcare solutions,
+                    React ToDo App, and diverse PHP-based systems. My Online
+                    Health Care platform connects users with licensed medical
+                    professionals virtually, while the ToDo App streamlines task
+                    management. I've contributed to projects like the Online
+                    Birth Certificate, Covid-19 Testing, and Daily Expense
+                    Tracker systems, enhancing administrative efficiency. My
+                    work includes a Chatbot for seamless communication and an
+                    Online Examination System for academic optimization. In
+                    finance, my Online Banking System ensures secure
+                    transactions, and the Student Project Allocation system aids
+                    resource distribution. Lastly, the Online Ticket Reservation
+                    system simplifies travel bookings. Currently, I'm engaged in
+                    an Ebook application project with AI integration, leveraging
+                    PHP and MySQL. My projects emphasize user experience and
+                    practicality, delivering innovative solutions across various
+                    domains.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav

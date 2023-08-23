@@ -4,8 +4,9 @@ import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
+import navIcon4 from "../assets/img/nav-icon4.svg";
+import navIcon5 from "../assets/img/nav-icon5.svg";
 import { Link } from "react-scroll";
-// import { Projects } from './Projects';
 
 export const Navbar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -50,17 +51,6 @@ export const Navbar = () => {
             >
               Home
             </Nav.Link>
-
-            {/* <Nav.Link
-              href="#projects"
-              className={
-                activeLink === "projects" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("projects")}
-            >
-              Projects
-            </Nav.Link> */}
-
             <Nav.Link
               href="#projects"
               className={
@@ -70,7 +60,6 @@ export const Navbar = () => {
             >
               Projects
             </Nav.Link>
-
             <Nav.Link
               href="#skills"
               className={
@@ -79,18 +68,24 @@ export const Navbar = () => {
               onClick={() => onUpdateActiveLink("skills")}
             >
               Skills
-            </Nav.Link>
+            </Nav.Link>{" "}
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/jabedhossain">
-                <img src={navIcon1} alt="navicon1" />
+                <img src={navIcon1} alt="linkedIn" />
               </a>
               <a href="https://www.facebook.com/jabedhossainjabu">
-                <img src={navIcon2} alt="navicon2" />
+                <img src={navIcon2} alt="facebook" />
               </a>
               <a href="https://instagram.com/jabedhossainjabu">
-                <img src={navIcon3} alt="navIcon3" />
+                <img src={navIcon3} alt="instagram" />
+              </a>
+              <a href="https://twitter.com/xabedhossain">
+                <img src={navIcon4} alt="twitter" />
+              </a>
+              <a href="https://github.com/jabedhossainswe">
+                <img src={navIcon5} alt="github" />
               </a>
             </div>
             <Link

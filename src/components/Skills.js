@@ -33,29 +33,28 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p style={{ textAlign: "justify" }}>
-                As an experienced PHP developer, my expertise lies in
-                server-side web development using PHP, a versatile scripting
-                language. With PHP, I handle dynamic content generation,
-                database interactions, and form processing on the server,
-                delivering robust web applications. Working with PHP, I build
-                back-end logic and APIs that power web application
-                functionality. I manage user authentication, data validation,
-                and server-side form processing, ensuring secure and reliable
-                web services. Proficient in MySQL, I design and manage
-                databases, perform complex data queries, and efficiently store
-                and retrieve information for web applications. As a full-stack
-                developer, I possess front-end skills in HTML, CSS, and
-                JavaScript, creating user-friendly interfaces for seamless
-                experiences across devices. Throughout my career, I have
-                collaborated on diverse projects, delivering high-quality
-                solutions tailored to client requirements. I optimize web
-                application performance, implement caching strategies, and
-                ensure efficient code execution for scalability and speed. In
-                conclusion, my expertise in PHP, MySQL, and front-end
-                technologies allows me to deliver end-to-end solutions for web
-                applications. I am committed to staying updated with industry
-                trends, continuously enhancing my skills to deliver innovative
-                web solutions.<br></br>
+                I bring extensive experience as a PHP developer, excelling in
+                server-side web development with PHP's versatile scripting
+                capabilities. My skills span dynamic content generation, robust
+                database interactions, and secure form processing. Alongside
+                PHP, I've ventured into modern front-end development using
+                React, enhancing user interfaces with its component-based
+                approach and efficient state management. My expertise in MySQL
+                enables me to design and manage databases, conduct intricate
+                data queries, and ensure seamless information retrieval. As a
+                full-stack developer, I seamlessly integrate PHP and React,
+                offering end-to-end solutions that optimize web application
+                performance and user experience. Collaborating on diverse
+                projects, I tailor solutions to meet client needs while
+                implementing caching strategies for scalability. My proficiency
+                in PHP, React, and front-end technologies underscores my
+                commitment to delivering innovative web solutions. Continuously
+                staying updated with industry trends, I'm dedicated to refining
+                my skills to create cutting-edge web experiences. In summary, I
+                offer a comprehensive skill set encompassing PHP, React, MySQL,
+                and a holistic understanding of modern web development,
+                delivering efficient, secure, and user-centric applications.
+                <br></br>
               </p>
               <Carousel
                 responsive={responsive}
@@ -86,12 +85,20 @@ export const Skills = () => {
                   <img src={meter3} alt="meter3" />
                   <h5>Web Design</h5>
                 </div>
+                <div className="item">
+                  <img src={meter2} alt="meter2" />
+                  <h5>Laravel</h5>
+                </div>
               </Carousel>
             </div>
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="background-img" />
+      <img
+        className="background-image-left"
+        src={colorSharp}
+        alt="background-img"
+      />
     </section>
   );
 };
