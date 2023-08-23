@@ -40,6 +40,14 @@ export const Footer = () => {
                 Jabed Hossain{" "}
               </a>{" "}
             </p>
+            <p>
+              If you're interested, you can mail me at{" "}
+              <a href="mailto:jabed.swe@gmail.com">jabed.swe@gmail.com</a>
+            </p>
+            <p>OR</p>
+            <p>
+              Contact me at: <a href="tel:+1234567890">+8801305009069</a>
+            </p>
           </Col>
         </Row>
       </Container>

@@ -48,6 +48,11 @@ export const projectslist = [
       "https://github.com/JabedHossainSwe/Daily-Expense-Tracker-Project-Using-Php.git",
   },
   {
+    title: "Online Ticket Reservation System Using PHP & MYSQL",
+    githubUrl:
+      "https://github.com/JabedHossainSwe/Online-Ticket-Reservation-with-PHP.git",
+  },
+  {
     title: "Covid-19 Testing Management System Using PHP & MYSQL",
     githubUrl:
       "https://github.com/JabedHossainSwe/Daily-Expense-Tracker-Project-Using-Php.git",
