@@ -1,5 +1,11 @@
 export const projectslist = [
   {
+    title:
+      "Ebook Application with Artificial Intelligence integrated Using PHP & MYSQL (Under Development)",
+    githubUrl:
+      "https://github.com/JabedHossainSwe/Ebook-Application-with-AI-integrated-using-PHP-and-MYSQL.git",
+  },
+  {
     title: "Online Health Care Using Laravel",
     githubUrl:
       "https://github.com/JabedHossainSwe/Online-Health-Care-Full-Project.git",
@@ -50,10 +56,5 @@ export const projectslist = [
     title: "Online Banking System Using PHP & MYSQL",
     githubUrl:
       "https://github.com/JabedHossainSwe/Online-Banking-System-with-PHP.git",
-  },
-  {
-    title: "Online Banking System Using PHP & MYSQL",
-    githubUrl:
-      "https://github.com/JabedHossainSwe/Ebook-Application-with-AI-integrated-using-PHP-and-MYSQL.git",
   },
 ];
