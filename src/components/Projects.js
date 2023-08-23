@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/project-img1.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
+import { projectslist } from "./Projects_list";
 
 export const Projects = () => {
   const projects = [
@@ -53,10 +54,10 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                        <Nav.Link eventKey="first">Projects</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                        <Nav.Link eventKey="second">Projects Images</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="third">Tab 3</Nav.Link>
@@ -69,20 +70,37 @@ export const Projects = () => {
                       }
                     >
                       <Tab.Pane eventKey="first">
+                        <ul>
+                          {projectslist.map((project, index) => (
+                            <li key={index}>
+                              <div
+                                style={{
+                                  display: "flex",
+                                  alignItems: "baseline",
+                                }}
+                              >
+                                <h6 style={{ marginRight: "0.5rem" }}>
+                                  {project.title}
+                                </h6>
+                                <a
+                                  href={project.githubUrl}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  View on GitHub
+                                </a>
+                              </div>
+                              <p>{project.description}</p>
+                            </li>
+                          ))}
+                        </ul>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="second">
                         <Row>
                           {projects.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="section">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque velit, rem explicabo
-                          excepturi id illo molestiae bprovidentlanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p style={{ textAlign: "justify" }}>
