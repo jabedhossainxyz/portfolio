@@ -1,22 +1,16 @@
 const express = require("express");
-const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
 
-// server used to send send emails
 const app = express();
 app.use(cors());
 app.use(express.json());
-app.use("/", router);
-app.listen(5000, () => console.log("Server Running"));
-console.log(process.env.EMAIL_USER);
-console.log(process.env.EMAIL_PASS);
 
 const contactEmail = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "********@gmail.com",
-    pass: "",
+    user: "jabed.swe@gmail.com",
+    pass: "gutvnxodzszudvuh",
   },
 });
 
@@ -28,25 +22,30 @@ contactEmail.verify((error) => {
   }
 });
 
-router.post("/contact", (req, res) => {
-  const name = req.body.firstName + req.body.lastName;
-  const email = req.body.email;
-  const message = req.body.message;
-  const phone = req.body.phone;
+app.post("/contact", (req, res) => {
+  const { firstName, lastName, email, phone, message } = req.body;
+
   const mail = {
-    from: name,
+    from: email,
     to: "jabed.swe@gmail.com",
-    subject: "Contact Form Submission - Portfolio",
-    html: `<p>Name: ${name}</p>
-           <p>Email: ${email}</p>
-           <p>Phone: ${phone}</p>
-           <p>Message: ${message}</p>`,
+    subject: "Contact Form Submission",
+    html: `
+      <p>Name: ${firstName} ${lastName}</p>
+      <p>Email: ${email}</p>
+      <p>Phone: ${phone}</p>
+      <p>Message: ${message}</p>
+    `,
   };
+
   contactEmail.sendMail(mail, (error) => {
     if (error) {
-      res.json(error);
+      res.status(500).json({ code: 500, message: "Error sending email" });
     } else {
-      res.json({ code: 200, status: "Message Sent" });
+      res.json({ code: 200, message: "Message sent successfully" });
     }
   });
+});
+
+app.listen(5000, () => {
+  console.log("Server is running on port 5000");
 });
