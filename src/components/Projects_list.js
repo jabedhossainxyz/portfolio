@@ -20,14 +20,6 @@ export const projectslist = [
     githubUrl: "https://github.com/JabedHossainSwe/todo-app-PHP.git",
   },
   {
-    title: "ToDo App Using Laravel",
-    githubUrl: "https://github.com/JabedHossainSwe/todo-app-using-laravel.git",
-  },
-  {
-    title: "ToDo App Using React",
-    githubUrl: "https://github.com/JabedHossainSwe/Todo-App-using-React.git",
-  },
-  {
     title: "Student Record Management System Using PHP & MYSQL",
     githubUrl:
       "https://github.com/JabedHossainSwe/Student-Record-System-Using-PHP.git",
@@ -43,23 +35,13 @@ export const projectslist = [
       "https://github.com/JabedHossainSwe/Daily-Expense-Tracker-Project-Using-Php.git",
   },
   {
-    title: "Daily Expense Tracker System Using PHP & MYSQL",
-    githubUrl:
-      "https://github.com/JabedHossainSwe/Daily-Expense-Tracker-Project-Using-Php.git",
-  },
-  {
     title: "Online Ticket Reservation System Using PHP & MYSQL",
     githubUrl:
-      "https://github.com/JabedHossainSwe/Online-Ticket-Reservation-with-PHP.git",
+    "https://github.com/JabedHossainSwe/Online-Ticket-Reservation-with-PHP.git",
   },
   {
-    title: "Covid-19 Testing Management System Using PHP & MYSQL",
+    title: "And More Projects You will find in my github repo's list",
     githubUrl:
-      "https://github.com/JabedHossainSwe/Daily-Expense-Tracker-Project-Using-Php.git",
-  },
-  {
-    title: "Online Banking System Using PHP & MYSQL",
-    githubUrl:
-      "https://github.com/JabedHossainSwe/Online-Banking-System-with-PHP.git",
+      "https://github.com/JabedHossainSwe/",
   },
 ];
