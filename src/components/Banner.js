@@ -76,7 +76,7 @@ const Banner = () => {
 
             <a
               href="https://www.linkedin.com/in/jabedhossain"
-              target="_blank"
+              target="blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
             >
