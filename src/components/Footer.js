@@ -18,25 +18,31 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/jabedhossain">
+              <a href="https://www.linkedin.com/in/jabedhossain" target="blank">
                 <img src={navIcon1} alt="linkedin" />
               </a>
-              <a href="https://www.facebook.com/jabedhossainjabu">
+              <a
+                href="https://www.facebook.com/jabedhossainjabu"
+                target="blank"
+              >
                 <img src={navIcon2} alt="facebook" />
               </a>
-              <a href="https://instagram.com/jabedhossainjabu">
+              <a href="https://instagram.com/jabedhossainjabu" target="blank">
                 <img src={navIcon3} alt="instagram" />
               </a>
-              <a href="https://twitter.com/xabedhossain">
+              <a href="https://twitter.com/xabedhossain" target="blank">
                 <img src={navIcon4} alt="twitter" />
               </a>
-              <a href="https://github.com/jabedhossainswe">
+              <a href="https://github.com/jabedhossainswe" target="blank">
                 <img src={navIcon5} alt="github" />
               </a>
             </div>
             <p>
               Copyright 2023. All Rights Reserved to{" "}
-              <a href="https://www.facebook.com/jabedhossainjabu">
+              <a
+                href="https://www.facebook.com/jabedhossainjabu"
+                target="blank"
+              >
                 Jabed Hossain{" "}
               </a>{" "}
             </p>
