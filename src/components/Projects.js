@@ -13,7 +13,8 @@ export const Projects = () => {
   const projects = [
     {
       title: "Sustainable Coastal & Marine Fisheries Project",
-      description: "Under Department of Fisheries, Matshya Bhaban, Dhaka,Bangladesh",
+      description:
+        "Under Department of Fisheries, Matshya Bhaban, Dhaka,Bangladesh",
       imgUrl: projImg1,
     },
     {
@@ -104,20 +105,32 @@ export const Projects = () => {
                               >
                                 <h6 style={{ marginRight: "0.5rem" }}>
                                   {project.title}
+                                  {project.description}
                                 </h6>
-                                <a
-                                  href={project.githubUrl}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  View on GitHub
-                                </a>
+                                {project.githubUrl ? (
+                                  <a
+                                    href={project.githubUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    View on GitHub
+                                  </a>
+                                ) : (
+                                  <a
+                                    href={project.Url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    URL
+                                  </a>
+                                )}
                               </div>
                               <p>{project.description}</p>
                             </li>
                           ))}
                         </ul>
                       </Tab.Pane>
+
                       <Tab.Pane eventKey="second">
                         <Row>
                           {projects.map((project, index) => {
