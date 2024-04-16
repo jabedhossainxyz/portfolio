@@ -12,6 +12,11 @@ import { projectslist } from "./Projects_list";
 export const Projects = () => {
   const projects = [
     {
+      title: "Sustainable Coastal & Marine Fisheries Project",
+      description: "Under Department of Fisheries, Matshya Bhaban, Dhaka,Bangladesh",
+      imgUrl: projImg1,
+    },
+    {
       title: "One Health",
       description: "Online Healthcare Management System using Laravel",
       imgUrl: projImg1,
