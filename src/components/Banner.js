@@ -56,22 +56,12 @@ const Banner = () => {
               </span>
             </h1>
             <p style={{ textAlign: "justify" }}>
-              As a proficient PHP and Laravel web developer, I specialize in
-              crafting dynamic web applications. Leveraging PHP's server-side
-              scripting and the robust capabilities of the Laravel framework, I
+              As a proficient PHP and Laravel developer, I specialize in
+              crafting dynamic web applications. Leveraging PHP and Laravel, I
               deliver scalable and feature-rich websites. My expertise extends
               to backend functionality, database interactions, and seamless
-              customization. In addition to my proficiency in PHP and Laravel,
-              I've embraced modern front-end technologies like React. This
-              enables me to create interactive interfaces, implement secure
-              authentication systems, and optimize data processing. With
-              in-depth knowledge of Laravel's ecosystem, including Eloquent ORM
-              and Blade templating, I prioritize enhancing website performance
-              and user experience. My coding approach emphasizes cleanliness and
-              maintainability, ensuring scalability and alignment with industry
-              standards. Notably, I excel in providing tailored web solutions
-              that seamlessly blend efficiency, security, and customization to
-              cater to the unique needs of businesses and users.
+              customization. I excel in providing tailored web solutions
+              blending efficiency, security, and customization.
             </p>
 
             <a

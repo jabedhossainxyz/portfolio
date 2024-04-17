@@ -65,11 +65,7 @@ export const Projects = () => {
                     finance, my Online Banking System ensures secure
                     transactions, and the Student Project Allocation system aids
                     resource distribution. Lastly, the Online Ticket Reservation
-                    system simplifies travel bookings. Currently, I'm engaged in
-                    an Ebook application project with AI integration, leveraging
-                    PHP and MySQL. My projects emphasize user experience and
-                    practicality, delivering innovative solutions across various
-                    domains.
+                    system simplifies travel bookings.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -105,9 +101,8 @@ export const Projects = () => {
                               >
                                 <h6 style={{ marginRight: "0.5rem" }}>
                                   {project.title}
-                                  {project.description}
                                 </h6>
-                                {project.githubUrl ? (
+                                {project.githubUrl && (
                                   <a
                                     href={project.githubUrl}
                                     target="_blank"
@@ -115,7 +110,8 @@ export const Projects = () => {
                                   >
                                     View on GitHub
                                   </a>
-                                ) : (
+                                )}
+                                {project.Url && !project.githubUrl && (
                                   <a
                                     href={project.Url}
                                     target="_blank"
