@@ -395,6 +395,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+/* professional experience css */
+.experience {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.experience-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: 60px;
+}
+
+.experience h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.experience p {
+  color: #B8B8B8;
+  font-size: 18px;
+}
+
+
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
