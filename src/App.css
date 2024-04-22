@@ -414,6 +414,10 @@ h3 {
   text-align: center;
 }
 
+.experience-bx a {
+  text-decoration: none;
+}
+
 .experience h2 {
   font-size: 45px;
   font-weight: 700;
