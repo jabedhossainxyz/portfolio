@@ -70,7 +70,6 @@ const Experience = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        {" "}
                         Education Management System
                       </a>
                     </li>
@@ -83,7 +82,7 @@ const Experience = () => {
                     </ul>
                     <br></br>
                     <li>
-                      Project 3: {""}{" "}
+                      Project 3: {""}
                       <a
                         href="http://dof.leotechbd.com/"
                         target="_blank"

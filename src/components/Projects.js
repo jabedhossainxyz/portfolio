@@ -4,6 +4,9 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/leomart.png";
+import projImg7 from "../assets/img/schoobee.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -18,24 +21,34 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
+      title: "Leomart",
+      description: "E-Commerce Management System using Laravel",
+      imgUrl: projImg6,
+    },
+    {
+      title: "Schoobee BD",
+      description: "Education Management System using HTML,CSS,JS,AJAX,Bootstrap & SQL",
+      imgUrl: projImg7,
+    },
+    {
       title: "One Health",
       description: "Online Healthcare Management System using Laravel",
-      imgUrl: projImg1,
+      imgUrl: projImg2,
     },
     {
       title: "TODO Application",
       description: "ToDo application using PHP",
-      imgUrl: projImg2,
+      imgUrl: projImg3,
     },
     {
       title: "Online Ticket Reservation System",
       description: "This application was built using PHP & MYSQL",
-      imgUrl: projImg3,
+      imgUrl: projImg4,
     },
     {
       title: "Student Record Management System",
       description: "This application was built using PHP & MYSQL",
-      imgUrl: projImg4,
+      imgUrl: projImg5,
     },
   ];
 
