@@ -115,13 +115,13 @@ const Experience = () => {
                   <p>Duration: May 2024 - Present</p>
                   <ul>
                     <li>
-                      Developed and maintained web applications using HTML, CSS,
-                      Bootstrap, JavaScript, AJax for front-end and PHP for
+                      Developing web applications using HTML, CSS,
+                      Bootstrap, JavaScript, AJax for front-end and PHP, Laravel for
                       back-end.
                     </li>
                     <li>
                       Designed and implemented efficient database structures
-                      using MySQL.
+                      using Oracle.
                     </li>
                     <li>
                       Collaborated with cross-functional teams to deliver
@@ -132,61 +132,27 @@ const Experience = () => {
                       guidance to junior developers.
                     </li>
                   </ul>
-                  <h4>Projects I've worked with Leotech:</h4>
+                  <h4>Projects I'm working with IT Bangla Limited:</h4>
                   <ul>
                     <li>
                       Project 1:{" "}
                       <a
-                        href="http://leomart.leotechbd.com/"
+                        href="https://pgcl.connecteasy.xyz/"
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ textDecoration: "none" }}
                       >
-                        E-commerce Website
+                        PGCL 
                       </a>
                     </li>
                     <ul>
-                      <li>Developed this site using Laravel.</li>
-                      <li>
+                      <li>Developing and fixiging bugs of this site using Laravel.</li>
+                      {/* <li>
                         Implemented product catalog, cart, and checkout
                         functionalities.
-                      </li>
+                      </li> */}
                     </ul>
                     <br></br>
-                    <li>
-                      Project 2:{" "}
-                      <a
-                        href="https://www.leotechbd.com/school-management-software/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Education Management System
-                      </a>
-                    </li>
-                    <ul>
-                      <li>Designed database schema using SQL.</li>
-                      <li>
-                        Developed user interface using HTML, CSS, JavaScript,
-                        Bootstrap, Ajax, PHP and integrated with back-end APIs.
-                      </li>
-                    </ul>
-                    <br></br>
-                    <li>
-                      Project 3: {""}
-                      <a
-                        href="http://dof.leotechbd.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Database Management System for Department of Fisheries,
-                        Matshya Bhaban, Bangladesh
-                      </a>
-                    </li>
-                    <ul>
-                      <li>This was a government project</li>
-                      <li>Developed user interface using Livewire.</li>
-                      <li>Designed database schema using MYSQL.</li>
-                    </ul>
                   </ul>
                 </div>
               </div>
