@@ -164,7 +164,7 @@ const Experience = () => {
                       </a>
                     </li>
                     <ul>
-                      <li>Developer and fixed bugs of this site using PHP.</li>
+                      <li>Developed and fixed bugs of this site using PHP.</li>
                       <li>Database: Oracle.</li>
                     </ul>
                     <br></br>
@@ -182,7 +182,7 @@ const Experience = () => {
                       </a>
                     </li>
                     <ul>
-                      <li>Developer and fixed bugs of this site using PHP.</li>
+                      <li>Developed and fixed bugs of this site using PHP.</li>
                       <li>Database: Oracle.</li>
                     </ul>
                     <br></br>
