@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/project-img4.png";
+import projImg4 from "../assets/img/project-img5.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/leomart.png";
 import projImg7 from "../assets/img/schoobee.png";

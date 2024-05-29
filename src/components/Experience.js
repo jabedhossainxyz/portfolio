@@ -142,15 +142,48 @@ const Experience = () => {
                         rel="noopener noreferrer"
                         style={{ textDecoration: "none" }}
                       >
-                        PGCL 
+                        PGCL
                       </a>
                     </li>
                     <ul>
                       <li>Developing and fixiging bugs of this site using Laravel.</li>
-                      {/* <li>
-                        Implemented product catalog, cart, and checkout
-                        functionalities.
-                      </li> */}
+                      <li>Database: Oravcle.</li>
+                    </ul>
+                    <br></br>
+                  </ul>
+                  <ul>
+                    <li>
+                      Project 2:{" "}
+                      <a
+                        href="https://ndc.mcampusbd.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ textDecoration: "none" }}
+                      >
+                        Application System for Notre Dame College, Dhaka, Bangladesh
+                      </a>
+                    </li>
+                    <ul>
+                      <li>Developer and fixed bugs of this site using PHP.</li>
+                      <li>Database: Oracle.</li>
+                    </ul>
+                    <br></br>
+                  </ul>
+                  <ul>
+                    <li>
+                      Project 3:{" "}
+                      <a
+                        href="https://bgfsc.edu.bd/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ textDecoration: "none" }}
+                      >
+                        Bangladesh Gas Fields School & College
+                      </a>
+                    </li>
+                    <ul>
+                      <li>Developer and fixed bugs of this site using PHP.</li>
+                      <li>Database: Oracle.</li>
                     </ul>
                     <br></br>
                   </ul>
