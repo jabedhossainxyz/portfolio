@@ -66,19 +66,7 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p style={{ textAlign: "justify" }}>
-                    With a versatile skill set, I excel in healthcare solutions,
-                    React ToDo App, and diverse PHP-based systems. My Online
-                    Health Care platform connects users with licensed medical
-                    professionals virtually, while the ToDo App streamlines task
-                    management. I've contributed to projects like the Online
-                    Birth Certificate, Covid-19 Testing, and Daily Expense
-                    Tracker systems, enhancing administrative efficiency. My
-                    work includes a Chatbot for seamless communication and an
-                    Online Examination System for academic optimization. In
-                    finance, my Online Banking System ensures secure
-                    transactions, and the Student Project Allocation system aids
-                    resource distribution. Lastly, the Online Ticket Reservation
-                    system simplifies travel bookings.
+                    I excel in developing and fixing PHP and Laravel projects with Oracle databases, including PGCL, Notre Dame College Application System, Bangladesh Gas Fields School & College, and BPDB Pharmacy. Additionally, I have expertise in creating healthcare solutions and React ToDo Apps.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -149,16 +137,7 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p style={{ textAlign: "justify" }}>
-                          To develop into a highly knowledgeable and skilled
-                          software engineer who specializes in creating,
-                          creating, and implementing cutting-edge software
-                          solutions. My goal is to consistently broaden my skill
-                          set, take on new challenges, and stay current with the
-                          most recent trends and innovations in the industry in
-                          order to advance professionally. My ultimate goal
-                          could be to create software that has a good impact on
-                          people's lives and to meaningfully contribute to the
-                          industry and society.
+                          My goal is to develop into a highly skilled software engineer specializing in creating and implementing cutting-edge software solutions. I aim to continuously broaden my skill set, take on new challenges, and stay current with industry trends and innovations. Ultimately, I aspire to create impactful software that benefits people's lives and contributes meaningfully to the industry and society.
                         </p>
                       </Tab.Pane>
                     </Tab.Content>

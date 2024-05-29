@@ -142,7 +142,7 @@ const Experience = () => {
                         rel="noopener noreferrer"
                         style={{ textDecoration: "none" }}
                       >
-                        PGCL
+                        PGCL (পশ্চিমাঞ্চল গ্যাস কোম্পানি লিমিটেড, পেট্রোবাংলার একটি কোম্পানি, সিরাজগঞ্জ)
                       </a>
                     </li>
                     <ul>
@@ -178,7 +178,7 @@ const Experience = () => {
                         rel="noopener noreferrer"
                         style={{ textDecoration: "none" }}
                       >
-                        Bangladesh Gas Fields School & College
+                        Bangladesh Gas Fields School & College, Birashar, Brahmanbaria 
                       </a>
                     </li>
                     <ul>
@@ -196,7 +196,7 @@ const Experience = () => {
                         rel="noopener noreferrer"
                         style={{ textDecoration: "none" }}
                       >
-                        BPDB Pharmacy
+                        Pharmacy Management System for Bangladesh Palli Biddhut Development Board (BPDB)
                       </a>
                     </li>
                     <ul>
