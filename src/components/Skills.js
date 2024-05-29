@@ -33,19 +33,9 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p style={{ textAlign: "justify" }}>
-                Bringing extensive PHP development experience, I excel in
-                server-side scripting, dynamic content generation, and secure
-                form processing. I adeptly utilize React for modern front-end
-                development, enhancing UIs with component-based structures and
-                efficient state management. Proficient in MySQL, I design and
-                manage databases, execute complex queries, and ensure seamless
-                data retrieval. As a full-stack developer, I seamlessly
-                integrate PHP and React, providing end-to-end solutions that
-                optimize performance and user experience. Tailoring solutions to
-                client needs, I implement caching strategies for scalability.
-                Committed to innovation, I continuously refine my skills to
-                deliver cutting-edge web experiences, emphasizing efficiency,
-                security, and user-centric design.
+                With extensive PHP development experience, I excel in server-side scripting and secure form processing. Using React for front-end development, I enhance user interfaces with efficient state management. Proficient in MySQL and Oracle, I design and manage databases for seamless data retrieval.
+
+                As a full-stack developer, I integrate PHP and React to optimize performance and user experience. Currently, I am working on projects involving Oracle databases. I implement caching strategies for scalability and continuously refine my skills to deliver secure, user-centric web solutions.
                 <br></br>
               </p>
               <Carousel
@@ -80,6 +70,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={meter2} alt="meter2" />
                   <h5>Laravel</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="meter2" />
+                  <h5>Oracle</h5>
                 </div>
               </Carousel>
             </div>

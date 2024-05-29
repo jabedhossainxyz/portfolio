@@ -187,6 +187,24 @@ const Experience = () => {
                     </ul>
                     <br></br>
                   </ul>
+                  <ul>
+                    <li>
+                      Project 4:{" "}
+                      <a
+                        href="http://103.106.118.10:8065/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ textDecoration: "none" }}
+                      >
+                        BPDB Pharmacy
+                      </a>
+                    </li>
+                    <ul>
+                      <li>Developing and fixing bugs of this site using Laravel.</li>
+                      <li>Database: Oracle.</li>
+                    </ul>
+                    <br></br>
+                  </ul>
                 </div>
               </div>
             </div>
