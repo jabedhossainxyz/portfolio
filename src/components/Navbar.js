@@ -51,15 +51,19 @@ export const Navbar = () => {
             >
               Home
             </Nav.Link>
+
+            {/* education */}
             <Nav.Link
-              href="#projects"
+              href="#education"
               className={
-                activeLink === "projects" ? "active navbar-link" : "navbar-link"
+                activeLink === "skills" ? "active navbar-link" : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("projects")}
+              onClick={() => onUpdateActiveLink("education")}
             >
-              Projects
+              Education
             </Nav.Link>
+
+            {/* skills */}
             <Nav.Link
               href="#skills"
               className={
@@ -69,6 +73,8 @@ export const Navbar = () => {
             >
               Skills
             </Nav.Link>
+
+            {/* experience */}
             <Nav.Link
               href="#experience"
               className={
@@ -80,7 +86,20 @@ export const Navbar = () => {
             >
               Experience
             </Nav.Link>
+
+            {/* projects */}
+            <Nav.Link
+              href="#projects"
+              className={
+                activeLink === "projects" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("projects")}
+            >
+              Projects
+            </Nav.Link>
+
           </Nav>
+
           <span className="navbar-text">
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/jabedhossain" target="blank">

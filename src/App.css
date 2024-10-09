@@ -356,7 +356,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-bx {
-  background: #151515;
+  background: #1f1f1f;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -395,6 +395,41 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+/* educational qualifications css */
+.education {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.education-bx {
+  background: #2f4f4f;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 64px;
+  -moz-border-radius: 64px;
+  -ms-border-radius: 64px;
+  -o-border-radius: 64px;
+}
+
+.education h2,
+p,
+h3 {
+  text-align: center;
+}
+
+.education h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.education p {
+  color: #B8B8B8;
+  font-size: 18px;
+}
+
 /* professional experience css */
 .experience {
   padding: 0 0 50px 0;
@@ -402,7 +437,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .experience-bx {
-  background: #151515;
+  background: linear-gradient(90.21deg, hsla(323, 32%, 39%, 0.568) -5.91%, #492fbddc 111.58%);
   border-radius: 64px;
   padding: 60px 50px;
   margin-top: 60px;
@@ -433,7 +468,13 @@ h3 {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: #1a1e2a;
+  margin-bottom: 20px;
+  border-radius: 75px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  -ms-border-radius: 75px;
+  -o-border-radius: 75px;
 }
 
 .project h2 {
