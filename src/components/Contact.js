@@ -38,10 +38,10 @@ export const Contact = () => {
     let result = await response.json();
     setFormDetails(formInitialDetails);
     if (result.code === 200) {
-      setStatus({ success: true, message: "Message sent successfully" }); // Corrected typo from succes to success
+      setStatus({ success: true, message: "Message sent successfully" }); 
     } else {
       setStatus({
-        success: false, // Corrected typo from succes to success
+        success: false,
         message: "Something went wrong, please try again later.",
       });
     }
@@ -88,7 +88,7 @@ export const Contact = () => {
                       <Col size={12} sm={6} className="px-1">
                         <input
                           type="text"
-                          value={formDetails.lastName} // Corrected typo from lasttName to lastName
+                          value={formDetails.lastName} 
                           placeholder="Last Name"
                           onChange={(e) =>
                             onFormUpdate("lastName", e.target.value)

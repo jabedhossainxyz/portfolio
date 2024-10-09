@@ -87,18 +87,18 @@ export const Navbar = () => {
                 <img src={navIcon1} alt="linkedIn" />
               </a>
               <a
-                href="https://www.facebook.com/jabedhossainjabu"
+                href="https://www.facebook.com/jabedhossain.xyz"
                 target="blank"
               >
                 <img src={navIcon2} alt="facebook" />
               </a>
-              <a href="https://instagram.com/jabedhossainjabu" target="blank">
+              <a href="https://instagram.com/jabedhossain.xyz" target="blank">
                 <img src={navIcon3} alt="instagram" />
               </a>
               <a href="https://twitter.com/xabedhossain" target="blank">
                 <img src={navIcon4} alt="twitter" />
               </a>
-              <a href="https://github.com/jabedhossainswe" target="blank">
+              <a href="https://github.com/jabedhossainxyz" target="blank">
                 <img src={navIcon5} alt="github" />
               </a>
             </div>
