@@ -360,7 +360,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-top: 5px;
 }
 
 .skill h2 {
@@ -407,7 +407,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
-  margin-bottom: 20px;
   -webkit-border-radius: 64px;
   -moz-border-radius: 64px;
   -ms-border-radius: 64px;
@@ -440,7 +439,7 @@ h3 {
   background: linear-gradient(90.21deg, hsla(323, 32%, 39%, 0.568) -5.91%, #492fbddc 111.58%);
   border-radius: 64px;
   padding: 60px 50px;
-  margin-top: 60px;
+  margin-top: 5px;
 }
 
 .experience-bx p,
@@ -470,6 +469,7 @@ h3 {
   position: relative;
   background-color: #1a1e2a;
   margin-bottom: 20px;
+  margin-top: 5px;
   border-radius: 75px;
   -webkit-border-radius: 75px;
   -moz-border-radius: 75px;
