@@ -466,7 +466,7 @@ h3 {
 .project {
   padding: 30px 0;
   position: relative;
-  background-color: #1a1e2a;
+  background: linear-gradient(90.0deg, hsla(231, 45%, 46%, 0.344) -5.91%, #6c58c8dc 111.58%);
   margin-bottom: 20px;
   margin-top: 5px;
   border-radius: 75px;
