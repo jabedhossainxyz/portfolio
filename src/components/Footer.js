@@ -37,7 +37,7 @@ export const Footer = () => {
             </div>
             <p>
               Copyright 2023. All Rights Reserved to{" "}
-              <a
+              <a style={{ textDecoration: "none" }}
                 href="https://www.linkedin.com/in/jabedhossain"
                 target="blank"
               >
@@ -46,15 +46,18 @@ export const Footer = () => {
             </p>
             <p>
               If you're interested, you can mail me at{" "}
-              <a href="mailto:jabed.swe@gmail.com">jabed.swe@gmail.com</a>
+              <a style={{ textDecoration: "none" }} href="mailto:jabed.swe@gmail.com">jabed.swe@gmail.com</a>
             </p>
             <p>OR</p>
             <p>
-              Contact me at: <a href="tel:+1234567890">+8801305009069</a>
+              Contact me at: <a style={{ textDecoration: "none" }} href="tel:+1234567890">+8801305009069</a>
+            </p>
+            <p>
+              <a style={{ textDecoration: "none" }} href="https://redorangecom.com/ourteam/jabed-hossain/" target='blank'>Company Profile</a>
             </p>
           </Col>
         </Row>
       </Container>
-    </footer>
+    </footer >
   );
 };

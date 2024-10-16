@@ -356,7 +356,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-bx {
-  background: #1f1f1f;
+  background: linear-gradient(90.21deg, hsla(324, 23%, 17%, 0.568) -5.91%, #492fbddc 111.58%);
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -402,7 +402,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .education-bx {
-  background: linear-gradient(90.21deg, hsla(323, 32%, 39%, 0.568) -5.91%, #492fbddc 111.58%);
+  background: linear-gradient(90.21deg, hsla(323, 49%, 58%, 0.568) -5.91%, #492fbddc 111.58%);
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -436,7 +436,7 @@ h3 {
 }
 
 .experience-bx {
-  background: linear-gradient(90.21deg, hsla(323, 23%, 54%, 0.568) -5.91%, #492fbddc 111.58%);
+  background: linear-gradient(90.21deg, hsla(324, 87%, 40%, 0.344) -5.91%, #492fbddc 111.58%);
   border-radius: 64px;
   padding: 60px 50px;
   margin-top: 5px;
@@ -464,7 +464,7 @@ h3 {
 
 /************ Projects Css ************/
 .project {
-  padding: 80px 0;
+  padding: 30px 0;
   position: relative;
   background-color: #1a1e2a;
   margin-bottom: 20px;
@@ -476,6 +476,22 @@ h3 {
   -o-border-radius: 75px;
 }
 
+.projectItem {
+  letter-spacing: 0px;
+}
+.projectItem li {
+  margin-bottom: 0.5rem;
+}
+
+.projectItem h6 {
+  margin-bottom: 0;
+}
+
+.projectItem p {
+  margin: 0.3rem 0;
+}
+
+
 .project h2 {
   font-size: 45px;
   font-weight: 700;
@@ -485,7 +501,7 @@ h3 {
 .project p {
   color: #B8B8B8;
   font-size: 18px;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.5px;
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;

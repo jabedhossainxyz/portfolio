@@ -3,7 +3,6 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/project-img5.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/leomart.png";
 import projImg7 from "../assets/img/schoobee.png";
@@ -14,6 +13,16 @@ import { projectslist } from "./Projects_list";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "BMMDP",
+      description: "Bangladesh Microincsurance Market Development Program",
+      imgUrl: projImg3,
+    },
+    {
+      title: "PGCL",
+      description: "This application was built using Laravel & Oracle",
+      imgUrl: projImg5,
+    },
     {
       title: "Sustainable Coastal & Marine Fisheries Project",
       description:
@@ -35,21 +44,7 @@ export const Projects = () => {
       description: "Online Healthcare Management System using Laravel",
       imgUrl: projImg2,
     },
-    {
-      title: "TODO Application",
-      description: "ToDo application using PHP",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Online Ticket Reservation System",
-      description: "This application was built using PHP & MYSQL",
-      imgUrl: projImg4,
-    },
-    {
-      title: "Student Record Management System",
-      description: "This application was built using PHP & MYSQL",
-      imgUrl: projImg5,
-    },
+    
   ];
 
   return (
@@ -81,7 +76,7 @@ export const Projects = () => {
                         <Nav.Link eventKey="second">Projects Images</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                        <Nav.Link eventKey="third">Goal</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -91,7 +86,7 @@ export const Projects = () => {
                       }
                     >
                       <Tab.Pane eventKey="first">
-                        <ul>
+                        <ul className="projectItem">
                           {projectslist.map((project, index) => (
                             <li key={index}>
                               <div

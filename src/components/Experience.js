@@ -47,6 +47,21 @@ const Experience = () => {
                     </ul>
                     <br />
                   </ul>
+                  <ul>
+                    <li>
+                      Project 2:{" "}
+                      <a
+                        href="https://bmmdp.org/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ textDecoration: "none" }}
+                      >
+                        BMMDP (Bangladesh Microinsurance Market Development Program)
+                      </a>
+                    </li>
+                    <li>Developing and fixing bugs of this site using Laravel.</li>
+                    <li>Database: MYSQL.</li>
+                  </ul>
                 </div>
 
                 <div className="experience-item">
@@ -107,12 +122,12 @@ const Experience = () => {
                     <br />
                     <li>
                       Project 3:{" "}
-                      <a 
-                      href="https://bgfsc.mcampusbd.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{textDecoration: "none"}}
-                      > School Management System for Bangladesh Gas Field School & College, Brahmanbaria 
+                      <a
+                        href="https://bgfsc.mcampusbd.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ textDecoration: "none" }}
+                      > School Management System for Bangladesh Gas Field School & College, Brahmanbaria
                       </a>
                     </li>
                     <ul>
